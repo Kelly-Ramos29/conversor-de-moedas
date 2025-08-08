@@ -82,7 +82,3 @@ Você será solicitado a digitar o valor desejado para conversão. O resultado s
 
   
 
-
-⚠️Observações
-Uma API gratuita pode ter limites de requisições por hora.
-É importante NÃO exportar sua chave da API em repositórios públicos. Use sempre variáveis de ambiente.
