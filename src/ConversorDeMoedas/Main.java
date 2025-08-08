@@ -10,17 +10,17 @@ public class Main {
 
             while (true) {
                 System.out.println("==== CONVERSOR DE MOEDAS ====");
-                System.out.println("1. USD para BRL");
-                System.out.println("2. BRL para USD");
-                System.out.println("3. BOB para EUR");
-                System.out.println("4. EUR para BOB");
-                System.out.println("5. ARS para CLP");
-                System.out.println("6. COP para BRL");
-                System.out.println("7. Sair");
+                System.out.println("1. Dólar ==> Real");
+                System.out.println("2. Real ==> Dólar");
+                System.out.println("3. Boliviano ==> Euro");
+                System.out.println("4. Euro ==> BolivianoB");
+                System.out.println("5. Peso Argentino ==> Peso Chileno");
+                System.out.println("6. Peso Colombiano ==> Real");
+                System.out.println("0. Sair");
                 System.out.print("Escolha uma opção: ");
                 int opcao = scanner.nextInt();
 
-                if (opcao == 7) {
+                if (opcao == 0) {
                     System.out.println("Saindo...");
                     break;
                 }
